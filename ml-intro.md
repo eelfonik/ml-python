@@ -228,6 +228,10 @@ The more data we have, the more complex can be the model, without overfitting. (
 
     - *Ridge regression*
 
+      Mostly the same as linear regression, but we want the `coefficient(w)` to meet extra contraint, and be close to `0`. The additional contraint is called **regularization**. And we use *L2 regularization* for Ridge regression to prevent *overfitting*.
+
+      We can adjust the contraint of `w` by param `alpha` from the `Ridge` model in `sklearn`, by default it takes `alpha=1.0`, the higher the number, the more `w` is near `0`. That might make the algo perform worse on training set, but more generalized. if we put `alpha=0`, the constraint is none and the **Ridge regression** performs the same as **Linear regression**.
+
   
 
 

@@ -490,7 +490,6 @@ So use `W = np.random.randn((n,m)) * 0.01`, but it's ok to init `B = np.zeros((n
 
 **N.B.** 这里`W`需要乘上`0.01`是因为我们不希望W的值太大，否则经过activition Fn（特别是sigmoid和tanh这类的Fn）计算出的A的值会过大或过小，导致直接落在非常平缓的两端曲线上，会影响gradient decent的计算效率。如果是一个deep network，我们可能会用其他的constant,而不是`0.01`， 但都不会太大。
 
--
 
 #### Logistic regression did not work well on the "flower dataset".
 

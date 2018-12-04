@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 # helpers activation fns
 def sigmoid(Z):
