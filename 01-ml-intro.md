@@ -121,3 +121,6 @@ Just use `fit`, `predict` & `score` methods from sklearn and normally you are go
 - `predict` takes test set `X_test`, and output the predictions (normally an np array)
 - `score` simply takes `X_test` & `y_test`, internally it use `predict` on test set, and compare the result with test output.
 
+## Next
+[Supervised models in detail](/02-supervised-ml-intro.md)
+
